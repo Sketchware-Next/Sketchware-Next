@@ -17,4 +17,12 @@
     <string name="link_github_commits_url" formatted="false" translatable="false">https://api.github.com/repos/Sketchware-Next/Sketchware-Next/commits?per_page=%s&amp;page=%s</string>
     <string name="link_github_url" translatable="false">https://github.com/Sketchware-Next/Sketchware-Next</string>
     <string name="link_sw_assist" translatable="false">https://play.google.com/store/apps/details?id=com.w3wide.swassist</string>
+    <string name="common_word_widget" translatable="false">Widget</string>
+    <string name="common_word_contributor" translatable="false">Contributor</string>
+    <string name="common_word_swassist" translatable="false">SwAssist</string>
+    <string name="common_word_github" translatable="false">GitHub</string>
+    <string name="common_word_fragment" translatable="false">Fragment</string>
+    <string name="common_word_dialogfragment" translatable="false">DialogFragment</string>
+    <string name="common_word_bottomsheetdialogfragment" translatable="false">BottomSheetDialogFragment</string>
+    <string name="common_word_code_editor" translatable="false">Code Editor</string>
 </resources>
