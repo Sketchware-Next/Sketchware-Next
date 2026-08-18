@@ -146,7 +146,6 @@
 # 11. R8 Auto-Generated Missing Rules (Optional Desktop/Tools Classes)
 # ----------------------------------------------------------------------------
 -dontwarn a.a.a.IB
--dontwarn a.a.a.JB
 -dontwarn a.a.a.kB
 -dontwarn a.a.a.lB
 -dontwarn a.a.a.tB
@@ -164,6 +163,17 @@
 -dontwarn java.lang.management.**
 -dontwarn kotlin.**
 -dontwarn javassist.**
+
+# ----------------------------------------------------------------------------
+# 12. XML Parsers & DOM Interfaces (Prevent R8 Return Type Narrowing Crash)
+# ----------------------------------------------------------------------------
+-keep class javax.xml.parsers.** { *; }
+-keepclassmembers class javax.xml.parsers.** { *; }
+-keep class javax.xml.transform.** { *; }
+-keepclassmembers class javax.xml.transform.** { *; }
+-keep interface org.w3c.dom.** { *; }
+-keep interface org.xml.sax.** { *; }
+
 
 
 
